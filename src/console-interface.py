@@ -1,7 +1,7 @@
 import play
 import os
 def note_converter():
-  os.system("clear")
+  os.system("cls")
   print("Ingrese una escala:")
   print("Ejemplo: 3-2-1-1-3-2")
 
