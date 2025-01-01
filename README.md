@@ -3,18 +3,6 @@
 
 Program that converts your **own scale** to a playable audio and exports it to a *music sheet* or *.mp3* file.
 
-## Install
-Essential **libraries**
-```bash
-pip3 install scamp
-pip3 install curses
-```
-Clone proyect
-```bash
-git clone https://github.com/luccagsp/ScaleBuilder.git
-cd ScaleBuilder
-```
-
 ## Run app
 **Clonning proyect**
 ```bash
