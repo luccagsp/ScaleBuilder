@@ -16,14 +16,20 @@ cd ScaleBuilder
 ```
 
 ## Run app
-For run the app you must open a terminal inside the cloned proyect and run the following commands:
-**Creating and initializing virtual enviroment (you must have python 3.10.4 installend and in your PATH variables)**
+**Clonning proyect**
+```bash
+git clone https://github.com/luccagsp/ScaleBuilder.git
+cd ScaleBuilder
+```
+
+**Creating and Initializing a Virtual Environment (You must have Python 3.10.4 installed and added to your PATH variables)**
 ```bash
 py -3.10 -m  venv env
 .\env\Scripts\activate
 pip install -r requirements.txt
 ```
-**Run app**
+
+**Running app**
 ```bash
 py src/curses-interface.py
 ```
