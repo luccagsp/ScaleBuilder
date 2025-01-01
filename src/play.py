@@ -1,8 +1,9 @@
 from scamp import *
+
 import notes_reproducer
 
 
-def playSession(tempo: int, octave:int, followingNotes:list, stdscr):
+def playSession(tempo: int, octave:int, followingNotes:list, stdscr=None):
 
     # # Verificar si todos los elementos en semitones_scale son números
     # if not all(isinstance(x, (int, float)) for x in semitones_scale):

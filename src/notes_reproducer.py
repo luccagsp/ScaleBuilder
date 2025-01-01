@@ -7,8 +7,9 @@ def play_notes(which_piano, followingNotes, stdscr):
   volume = 1.0
 
   for note in followingNotes:
-    stdscr.addstr(note['note'] + " ")
-    stdscr.refresh()
+    if stdscr:
+      stdscr.addstr(note['note'] + " ")
+      stdscr.refresh()
     which_piano.play_note(note['midi'], volume, note['time'])
 
 def calculate_notes(initial_pitch, semitones_scale, times):
